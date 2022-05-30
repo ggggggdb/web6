@@ -5,9 +5,9 @@
 </head>
 
 <?php
-$db_user = 'u47562';
-$db_pass = '2542084';
-$db = new PDO('mysql:host=localhost;dbname=u47562', $db_user, $db_pass, array(
+$db_user = 'u47502';
+$db_pass = '8701243';
+$db = new PDO('mysql:host=localhost;dbname=u47502', $db_user, $db_pass, array(
     PDO::ATTR_PERSISTENT => true
 ));
 $login = isset($_SERVER['PHP_AUTH_USER']) ? $_SERVER['PHP_AUTH_USER'] : '';
